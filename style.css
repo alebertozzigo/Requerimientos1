@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    text-align:center; 
+   
+   
+}
+
+#error{
+    text-align: center;
+    color: firebrick;
+}
+
+
+input[type="text"],input[type="password"]{
+
+outline: none;
+    padding: 20px;
+    display: block; /*para que uno este debajo de otro*/
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+}
+input[type="text"]:focus,input[type="password"]:focus{
+      border: 2px solid #1a75ff;  
+    }
+
+
+   
+
+
+
+/*boton de send*/
+input[type="submit"]{
+  padding: 10px;
+    color: #fff;
+    background: #0098cb;
+    width: 320px;
+    margin: 20px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    text-shadow: 0 -1px 0 #1a75ff;
+}
+
+input[type="submit"]:hover,input[type="submit"]:focus{  /*cuando estoy apuntadno al bton*/
+  background-color: #1a75ff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1a75ff), to(#1a75ff));
+  background-image: linear-gradient(#1a75ff, #1a75ff);
+}
+
+
+
+.loginBtn--facebook {
+   padding: 10px;
+    color: #fff;
+    background: #0098cb;
+    width: 320px;
+    margin: 20px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    text-shadow: 0 -1px 0 #1a75ff;
+}
+
+
+.loginBtn--facebook:hover,
+.loginBtn--facebook:focus {
+  background-color: #1a75ff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1a75ff), to(#1a75ff));
+  background-image: linear-gradient(#1a75ff, #1a75ff);
+}
+
